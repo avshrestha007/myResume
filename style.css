@@ -1,5 +1,6 @@
-a{
+a, .navBar{
     text-decoration: none;
+    font-weight: bold;
 }
 #myName{
     display: block;
@@ -8,4 +9,19 @@ a{
 img{
     border: 1px solid black;
     border-radius: 180px;
+}
+.clickbutton{
+    color: rgb(39, 39, 39);
+}
+#button1{
+    background-color: rgb(18, 159, 240);
+    border-color: rgb(18, 159, 240);
+    border-radius: 5px;
+    font-weight: bold;
+}
+#button2{
+    background-color: rgb(15, 241, 15);
+    border-color: rgb(15, 241, 15);
+    border-radius: 5px;
+    font-weight: bold;
 }
