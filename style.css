@@ -25,3 +25,13 @@ img{
     border-radius: 5px;
     font-weight: bold;
 }
+
+#darkPara{
+    
+    display: inline;
+}
+
+#darkBtn{
+    font-weight: bold;
+}
+
