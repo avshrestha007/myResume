@@ -1,6 +1,7 @@
-alert("Hello This is my Resume");
+
 
 let mode = document.querySelector("body");
+
 let currMode ="Light";
 
 mode.addEventListener("click", () => {
@@ -12,3 +13,5 @@ mode.addEventListener("click", () => {
         document.querySelector("body").style.backgroundColor = "white";
     }
 });
+
+
