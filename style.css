@@ -1,10 +1,40 @@
-a, .navBar{
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
     text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(168, 81, 168);    
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 20px;
     font-weight: bold;
+    color: black;
 }
-#myName{
-    display: block;
+nav ul li a{
+    text-decoration: none;
+    
+    
+    color: black;
 }
+
+
 
 img{
     border: 1px solid black;
