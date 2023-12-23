@@ -1,12 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: 'Roboto', sans-serif; */
+    
 }
 
-body{
-    background-color: rgb(183, 109, 233);
-}
+
 
 a{
     text-decoration: none;
@@ -16,7 +14,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     color: white;
-    /* background-color: rgb(214, 221, 228);     */
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -34,7 +32,33 @@ nav ul li {
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    font-size: 18px;
+    color: purple;
+    
+}
+
+.aboutSection{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.resumeBtn{
+    font-family: 'Roboto', sans-serif;
+    height: 30px;
+    width: 100px;
+    font-size: larger;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.aboutPara{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: white
     
 }
 
