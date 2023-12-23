@@ -1,7 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+body{
+    background-color: rgb(183, 109, 233);
 }
 
 a{
@@ -11,7 +15,8 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(168, 81, 168);    
+    color: white;
+    /* background-color: rgb(214, 221, 228);     */
 }
 
 
@@ -25,21 +30,17 @@ nav ul li {
     list-style: none;
     margin: 20px;
     font-weight: bold;
-    color: black;
+    
 }
 nav ul li a{
     text-decoration: none;
+    color: white;
     
-    
-    color: black;
 }
 
 
 
-img{
-    border: 1px solid black;
-    border-radius: 180px;
-}
+
 .clickbutton{
     color: rgb(39, 39, 39);
 }

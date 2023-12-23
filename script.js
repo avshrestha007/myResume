@@ -2,15 +2,15 @@
 
 let mode = document.querySelector("body");
 
-let currMode ="Light";
+let currMode ="Perple";
 
 mode.addEventListener("click", () => {
-        if(currMode === "Light"){
+        if(currMode === "Perple"){
         currMode = "Dark";
         document.querySelector("body").style.backgroundColor = "black";
     } else{
-        currMode = "Light";
-        document.querySelector("body").style.backgroundColor = "white";
+        currMode = "Perple";
+        document.querySelector("body").style.backgroundColor = "rgb(183, 109, 233)";
     }
 });
 
