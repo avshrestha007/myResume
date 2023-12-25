@@ -15,6 +15,7 @@ nav{
     align-items: center;
     color: white;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 
@@ -40,10 +41,11 @@ nav ul li a{
 .aboutSection{
     height: 500px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: purple;
-    border-radius: 10px;
+    justify-content: right;
+    align-items:center;
+    /* border-radius: 10px; */
+    background-image: url(pexels-miguel-á-padriñán-1591060.jpg);
+    background-size: 100% 100%;
 }
 
 .resumeBtn{
@@ -58,7 +60,7 @@ nav ul li a{
 .aboutPara{
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
-    color: white
+    color: purple
     
 }
 
